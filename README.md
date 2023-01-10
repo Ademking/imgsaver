@@ -6,11 +6,17 @@ a tool that downloads remote images and replaces them with local versions.
 
 Sometimes, I use remote images in my markdown files. I wanted a tool that would download these images and replace them with local versions. This tool does exactly that. It searches for images in the specified directory and downloads them to the specified output directory. It then replaces the remote image with the local version.
 
-## Usage
+## Installation
 
-To use this tool, just run
+You can install it globally using npm:
 
+```bash
+npm install -g imgsaver
 ```
+
+or you can use directly using npx:
+
+```bash
 npx imgsaver -d ./directory_to_search -o ./output_directory
 ```
 
@@ -29,9 +35,11 @@ npx imgsaver -d ./directory_to_search -o ./output_directory
 ## Examples
 
 ```
-$ npx imgsaver -d ./website -o ./website/images
+npx imgsaver -d ./website -o ./website/images
+```
 
-$ npx imgsaver -d ./test -o ./test/img -p ./images/ -i .md,.html
+```
+npx imgsaver -d ./test -o ./test/img -p ./images/ -i .md,.html
 ```
 
 ## Contributing
