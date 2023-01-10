@@ -1,0 +1,29 @@
+{
+  "name": "imgsaver",
+  "version": "1.0.0",
+  "description": "a tool that downloads remote images and replaces them with local versions",
+  "main": "/lib/index.js",
+  "preferGlobal": true,
+  "type": "module",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "imgsaver": "./lib/index.js"
+  },
+  "keywords": [
+    "imgsaver"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ademking/imgsaver.git"
+  },
+  "author": "Adem Kouki",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^9.5.0",
+    "request": "^2.88.2"
+  }
+}
