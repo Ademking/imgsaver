@@ -1,6 +1,6 @@
 {
   "name": "imgsaver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a tool that downloads remote images and replaces them with local versions",
   "main": "/lib/index.js",
   "preferGlobal": true,
